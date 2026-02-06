@@ -7,4 +7,4 @@
 
 Figma(link)
 
-![main-page](https://github.com/mynameisc1206/Korea-Organ-Donation-Agency-Laboratory_redesign/issues/1#issue-3904459465)
+![MainPage](https://github.com/mynameisc1206/Korea-Organ-Donation-Agency-Laboratory_redesign/issues/1#issue-3904459465)
