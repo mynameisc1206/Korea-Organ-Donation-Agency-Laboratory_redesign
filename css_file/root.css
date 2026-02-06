@@ -1,0 +1,80 @@
+@import url('https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css');
+/* 수트체 */
+@import url('https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css');
+/* 원티드 산스 */
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
+/* 검은 고딕 */
+@font-face {
+  font-family: 'PocheonOseongwaHanum';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OSeongandHanEum.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+/* 오성과 한음체 */
+
+:root{
+  --font-sm: 'SUIT', sans-serif;;
+  --font-size-sm-10: 10px;
+  --font-size-sm-12: 12px;
+  --font-size-sm-14: 14px;
+  --font-size-sm-base: 16px;
+  --font-size-sm-18: 18px;
+  --font-size-sm-20: 20px;
+  --font-size-sm-22: 22px;
+  --font-size-re-base: 16px;
+  --font-re: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;;
+  --font-size-re-18: 18px;
+  --font-size-re-20: 20px;
+  --font-size-re-22: 22px;
+  --font-size-re-24: 24px;
+  --font-size-re-26: 26px;
+  --font-size-re-28: 28px;
+  --font-size-re-30: 30px;
+  --font-size-re-32: 32px;
+  --font-size-re-34: 34px;
+  --font-size-re-36: 36px;
+  --font-lg: "Black Han Sans", sans-serif;;
+  --font-size-lg-28: 28px;
+  --font-size-lg-32: 32px;
+  --font-size-lg-36: 36px;
+  --font-size-lg-40: 40px;
+  --font-weight-ms: 200;
+  --font-weight-s: 300;
+  --font-weight-re: 400;
+  --font-weight-reb: 500;
+  --font-weight-b: 800;
+  --font-weight-xb: 900; 
+  /* text - style */
+  --color-red-primary: #E40E1C;
+  --color-red-secondary: #FF303D;
+  --color-red-light: #FF5762;
+  --color-red-pastel: #FFA6AB;
+  --color-blue-primary: #143C8A;
+  --color-blue-secondary: #2D5DB9;
+  --color-blue-light: #5A8AE7;
+  --color-blue-pastel: #9ABCFF;
+  --color-text-black: #1C1B1F;
+  --color-text-b-gray: #7D7D7D;
+  --color-text-gray: #D9D9D9;
+  --color-text-lg-gray: #EEEEEE;
+  --color-text-white: #FFFFFF;
+  /* color - style */
+  --space-xs: 5px;
+  --space-sm: 10px;
+  --space-md: 15px;
+  --space-lg: 20px;
+  --space-xl: 25px;
+  --space-xxl: 30px;
+  --space-xxxl: 35px;
+  /* margin, padding */
+  --shadow-first-ver: 0 8px 25px 0 #b7b7b79a;
+  --shadow-second-ver: 0 4px 10px 0 ##b7b7b79a;
+  /* shadow */
+  --border-radious-sm: 5px;
+  --border-radious-ls: 10px;
+  --border-radious-xls: 15px;
+  --border-radious-re: 20px;
+  --border-radious-lg: 25px;
+  --border-radious-xl: 30px;
+  /* border */
+}

@@ -1,0 +1,88 @@
+@media(max-width:500px){
+  .container{width: 468px;}
+  header{
+    display: flex;
+    align-items: center;
+    width: 100%; height: 80px;
+  }
+  header .number, .header-top, .header-mid, .main-nav ul{display: none;}
+  .main-nav .mobile-logo{display: block;}
+  .main-nav .search-icon{display: block; margin-left: 187px;}
+  .main-nav .sitemap-icon{margin-left: 23px;}
+  .main-nav .sitemap-icon p{display: block;}
+  .main-nav .sitemap-icon img{width: 30px; height: 30px;}
+ 
+  .site-map .container{flex-direction: column;}
+  .site-map.active{max-height: 3200px;}
+  .site-map-links{width: 100%;
+  margin: 15px 0;}
+  /* 헤더 파트 */
+
+  /* 베너 파트 */
+  
+  .sitelink-service{width: 468px;}
+  .sitelink .link-main{display: none;}
+  .site-icons{margin-right: 35px;}
+  .sitelink-click{left: 90px;}
+   /* 사이트 제공 링크 */
+  
+  .link-path{text-align: center;}
+  .notice-title-textbox{justify-content: center;}
+  .notice-title-textbox .notice-input{display: none;} 
+   /* 메인 파트: 상단 텍스트 */
+
+  .news-count{
+    text-align: center;
+    font-family: var(--font-sm);
+    font-size: var(--font-size-re-22);
+    font-weight: var(--font-weight-s);
+    margin-bottom: 10px;
+  } 
+  .notice-text-wrap{
+    flex-direction: column;
+    height: 180px;
+    padding: 10px 0 20px 0;
+  }
+  .news-title{flex-direction: column;}
+  .news-title .icons{
+    width: 415px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .news-title .news{width: 415px;}
+  .notice-text-wrap .date{
+    margin-left: 315px;
+  }
+  /* 메인 파트: 공지 보드 */
+
+  .gov-img-box{
+    gap: 10px;
+    width: 100%; height: 55px;
+  }
+  .gov-img-box a img{
+    width: 110px; height: 55px;
+  }
+  .footer-link .container{
+    flex-direction: column;
+  }
+  .location{
+    flex: 1;
+    text-align: center;
+  }
+  .location p{margin: 15px 0px;}
+  .sns-link{flex: 1; text-align: center;}
+  .sns-link .icons{margin-top: 10px;}
+  .footer-policy .container{
+    align-items: center;
+    flex-direction: column;
+  }
+  .policy a{
+    font-family: var(--font-sm);
+    font-size: var(--font-size-sm-14);
+    font-weight: var(--font-weight-s);
+    margin: 0 7.5px;
+  }
+  .policy a:first-child{margin-left: 0;}
+  .marks img{margin: 30px 5px;}
+  /* 푸터 */
+}

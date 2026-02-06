@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css_file/root.css">
+  <link rel="stylesheet" href="css_file/reset.css">
+  <link rel="stylesheet" href="css_file/style.css">
+  <link rel="stylesheet" href="css_file/media.css">
+  <title>한국장기조직기증원KODA 디자인 구현 과정</title>
+</head>
+<body>
+  <header>
+    <div class="number">
+      <div class="container">
+        <span class="call-number">의료진 전용 / 뇌사시 통보 / 1577-1458</span>
+        <span class="call-number">일반인 전용 /기증희망등록 / 1577-1458</span>
+      </div>
+    </div>
+   <!-- 맨 위 -->
+
+   <div class="container">
+      <div class="header-top">
+        <ul class="user-service">
+          <li><a href="#none">지원</a></li>
+          <li><a href="#none">화면설정</a></li>
+          <li><a href="#none">Language</a></li>
+          <li><a href="#none">사이트맵</a></li>
+        </ul>
+      </div>
+      <!-- 상단 --> 
+      
+      <div class="header-mid">
+        <figure class="logo-wrap">
+          <a href="index.html"><img src="./images/logo-main-png.png" alt="한국장기조직기증원"
+            title="한국장기조직기증원"></a>
+        </figure>
+        <!-- 로고 -->
+        <div class="input-wrap">
+          <input type="text" placeholder="통합검색">
+          <button><img src="./images/search.svg" alt="검색"></button>
+        </div>
+        <!-- 검색어 -->
+      </div>
+      <!-- 중단 : 로고 및 검색입력 -->
+
+      <nav class="main-nav">
+        <ul>
+          <li class="menu-itme" data-target="subMenu01"><a href="#none">KODA</a></li>
+          <li class="menu-itme" data-target="subMenu02"><a href="./subpage02/subpage02.html">추모공간</a></li>
+          <li class="menu-itme" data-target="subMenu03"><a href="#none">장기·조직기증</a></li>
+          <li class="menu-itme" data-target="subMenu04"><a href="./subpage01/subpage01.html">알림마당</a></li>
+        </ul>
+        <figure class="mobile-logo">
+          <a href="index.html"><img src="./images/logo-main-png.png" alt="한국장기조직기증원"
+            title="한국장기조직기증원"></a>
+        </figure>
+        <span class="search-icon">
+          <img src="images/search.svg" alt="검색">
+          <p>통합검색</p>
+        </span>
+        <span class="sitemap-icon" id="siteMapToggle">
+          <img src="./images/density_medium.svg" alt="사이트 메뉴">
+          <p>전체메뉴</p>
+        </span>
+      </nav>
+      <!-- 하단 : 사이트 네비 -->
+    </div>
+  </header>
+  
+  <div class="submenu-wrapper">
+    <!-- koda -->
+    <div class="submenu" id="subMenu01">
+      <div class="container">
+        <div class="submenu-links links01">
+           <h4>기관소개</h4>
+           <a href="#none">비전 및 목표</a>
+           <a href="#none">CI 소개·연혁</a>
+           <a href="#none">ESG 경영</a>
+           <a href="#none">로고송</a>
+           <a href="#none">캐릭터</a>
+        </div>
+
+        <div class="submenu-links links02">
+          <h4>인권·윤리경영</h4>
+          <a href="#none">인권경영</a>
+          <a href="#none">윤리경영</a>
+          <a href="#none">부패·공익신고</a>
+          <a href="#none">인권·윤리경영 게시판</a>
+        </div>
+
+        <div class="submenu-links links03">
+          <h4>인사말</h4>
+          <a href="#none">기관장 인사말</a>
+        </div>
+
+        <div class="submenu-links links04">
+          <h4>위치안내</h4>
+          <a href="#none">기관 위치</a>
+        </div>
+
+        <div class="submenu-links links05">
+          <h4>저작권정책</h4>
+          <a href="#none">저작권정책</a>
+        </div>
+      </div>
+    </div>
+
+  <!-- 추모공간 -->
+    <div class="submenu" id="subMenu02">
+      <div class="container">
+        <div class="submenu-links link01">
+          <h4>기증자 추모</h4>
+           <a href="#none">기증자 추모관</a>
+           <a href="#none">생명나눔 이야기</a>
+           <a href="#none">하늘나라편지</a>
+           <a href="#none">수혜자 편지</a>
+           <a href="#none">기증 後 스토리</a>
+        </div>
+
+        <div class="submenu-links link02">
+          <h4>기증자 예우</h4>
+           <a href="#none">기증자 예우 및 유가족 지원</a>
+           <a href="#none">기증 후 행정 절차</a>
+           <a href="#none">기증자 추모·유가족 행사</a>
+        </div>
+
+        <div class="submenu-links links03">
+          <h4>생명나눔 희망우체통</h4>
+          <a href="#none">생명나눔 희망우체통</a>
+        </div>
+      </div>
+    </div>
+
+  <!-- 장기/조직기증 -->
+    <div class="submenu" id="subMenu03">
+      <div class="container">
+        <div class="submenu-links link01">
+          <h4>장기·조직기증이란</h4>
+           <a href="#none">장기·조직기증</a>
+           <a href="#none">기증 팩트 체크</a>
+           <a href="#none">기증 용어 설명</a>
+           <a href="#none">KODA코디네이터</a>
+           <a href="#none">장기·조직 기증적합성평가</a>
+           <a href="#none">기증희망등록</a>
+           <a href="#none">장기·조직 분배 체계</a>
+           <a href="#none">통보센터</a>
+        </div>
+
+        <div class="submenu-links link02">
+          <h4>협약기관</h4>
+           <a href="#none">뇌사자 관리업무 협약기관</a>
+           <a href="#none">기증 활성화 프로그램 협약기관</a>
+        </div>
+
+        <div class="submenu-links link03">
+          <h4>기증 활성화 프로그램</h4>
+           <a href="#none">기증 활성화 프로그램 소개</a>
+           <a href="#none">MRR · HAS</a>
+        </div>
+
+        <div class="submenu-links link04">
+          <h4>기증통계</h4>
+           <a href="#none">장기·조직기증 추이</a>
+           <a href="#none">연도별 기증 추이</a>
+           <a href="#none">5년간 기증 통계 비교</a>
+        </div>
+      </div>
+    </div>
+
+  <!-- 알림마당 -->
+    <div class="submenu" id="subMenu04">
+      <div class="container">
+        <div class="submenu-links link01">
+          <h4>공지사항</h4>
+           <a href="#none">전체</a>
+           <a href="#none">공지사항</a>
+           <a href="#none">채용·입찰</a>
+        </div>
+
+        <div class="submenu-links link02">
+          <h4>기관일정</h4>
+           <a href="#none">기관일정</a>
+           <a href="#none">기관행사</a>
+        </div>
+
+        <div class="submenu-links link03">
+          <h4>보도자료</h4>
+           <a href="#none">보도자료</a>
+        </div>
+
+        <div class="submenu-links link04">
+          <h4>홍보자료</h4>
+           <a href="#none">간행물</a>
+           <a href="#none">동영상</a>
+           <a href="#none">연간보고서</a>
+           <a href="#none">생명나눔 도서관</a>
+        </div>
+
+        <div class="submenu-links link05">
+          <h4>정보공개</h4>
+           <a href="#none">정보공개제도안내</a>
+           <a href="#none">사전정보 공개</a>
+           <a href="#none">공공데이터 개방</a>
+           <a href="#none">의료기관 뇌사추정자 신고 현황</a>
+           <a href="#none">적극행정</a>
+           <a href="#none">경영공시</a>
+           <a href="#none">사업실명제</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 서브 네비  -->
+
+  <div class="site-map-wrapper">
+    <div class="site-map" id="siteMap">
+      <div class="container">
+        <div class="site-map-links slink01">
+          <h4>KODA</h4>
+          <div class="link-text">
+            <h6>기관소개</h6>
+             <a href="#none">비전 및 목표</a>
+             <a href="#none">CI 소개·연혁</a>
+             <a href="#none">ESG 경영</a>
+             <a href="#none">로고송</a>
+             <a href="#none">캐릭터</a>
+          </div>
+          <div class="link-text">
+            <h6>인권·윤리경영</h6>
+             <a href="#none">인권경영</a>
+             <a href="#none">윤리경영</a>
+             <a href="#none">부패·공익신고</a>
+             <a href="#none">인권·윤리경영 게시판</a>
+          </div>
+          <div class="link-text">
+            <h6>인사말</h6>
+            <a href="#none">기관장 인사말</a>
+          </div>
+          <div class="link-text">
+            <h6>위치안내</h6>
+            <a href="#none">기관 위치</a>
+          </div>
+          <div class="link-text">
+            <h6>기관일정</h6>
+            <a href="#none">기관 일정</a>
+            <a href="#none">기관 행사</a>
+          </div>
+          <div class="link-text">
+            <h6>협약기관</h6>
+            <a href="#none">뇌사자 관리업무 협약기관</a>
+               <a href="#none">기증 활성화 프로그램 협약기관</a>
+          </div>
+          <div class="link-text">
+            <h6>저작권정책</h6>
+            <a href="#none">저작권정책</a>
+          </div>
+        </div>
+        <!-- koda -->
+        <div class="site-map-links slink02">
+          <h4>장기·조직기증</h4>
+          <div class="link-text">
+            <h6>장기·조직기증이란</h6>
+            <a href="#none">장기·조직기증</a>
+            <a href="#none">기증 팩트 체크</a>
+            <a href="#none">기증 용어 설명</a>
+            <a href="#none">KODA코디네이터</a>
+            <a href="#none">장기·조직 기증적합성평가</a>
+            <a href="#none">기증희망등록</a>
+            <a href="#none">장기·조직 분배 체계</a>
+            <a href="#none">통보센터</a>
+          </div>
+          <div class="link-text">
+            <h6>기증 활성화 프로그램</h6>
+            <a href="#none">기증 활성화 프로그램 소개</a>
+            <a href="#none">MRR · HAS</a>
+          </div>
+        </div>
+        <!-- 장기조직기증 -->
+        <div class="site-map-links slink03">
+          <h4>기증자</h4>
+          <div class="link-text">
+            <h6>기증자 추모</h6>
+            <a href="#none">기증자 추모관</a>
+            <a href="#none">생명나눔 이야기</a>
+            <a href="#none">하늘나라편지</a>
+            <a href="#none">수혜자 편지</a>
+            <a href="#none">기증 後 스토리</a>
+          </div>
+          <div class="link-text">
+            <h6>기증자예우</h6>
+            <a href="#none">기증자 예우 및 유가족 지원</a>
+            <a href="#none">기증 후 행정 절차</a>
+            <a href="#none">기증자 추모·유가족 행사</a>
+          </div>
+          <div class="link-text">
+            <h6>생명나눔 희망우체통</h6>
+            <a href="#none">생명나눔 희망우체통</a>
+          </div>
+          <div class="link-text">
+            <h6>기증통계</h6>
+            <a href="#none">장기·조직기증 추이</a>
+            <a href="#none">연도별 기증 추이</a>
+            <a href="#none">5년간 기증 통계 비교</a>
+          </div>
+        </div>
+        <!-- 기증자 -->
+        <div class="site-map-links slink04">
+          <h4>통계·자료</h4>
+          <div class="link-text">
+            <h6>정보공개</h6>
+            <a href="#none">정보공개제도안내</a>
+            <a href="#none">사전정보 공개</a>
+            <a href="#none">공공데이터 개방</a>
+            <a href="#none">의료기관 뇌사추정자 신고 현황</a>
+            <a href="#none">적극행정</a>
+            <a href="#none">경영공시</a>
+            <a href="#none">사업실명제</a>
+          </div>
+          <div class="link-text">
+            <h6>홍보자료</h6>
+            <a href="#none">간행물</a>
+            <a href="#none">동영상</a>
+            <a href="#none">연간보고서</a>
+            <a href="#none">생명나눔 도서관</a>
+          </div>
+          <div class="link-text">
+            <h6>보도자료</h6>
+            <a href="#none">보도자료</a>
+          </div>
+          <div class="link-text">
+            <h6>공지사항</h6>
+            <a href="#none">전체</a>
+            <a href="#none">공지사항</a>
+            <a href="#none">채용·입찰</a>
+          </div>
+        </div>
+        <!-- 통계/자료 -->
+       </div>
+    </div>
+  </div>
+  <!-- 사이트맵 -->
+  
+  <!-- 헤더 파트 -->
+  
+  <main> 
+  <section class="banner">
+    <article class="banner-background-image">
+      <div class="container">
+        <div class="banner-text-part">
+           <span>한국장기조직기증원
+            <img src="./images/KODA_logo09_white.svg" alt="한국장기조직기증원"></span>
+           <span>생명나눔, 끝이 아닌 시작</span>
+        </div>
+        <!-- 대표 텍스트 -->
+        
+        <div class="banner-stats-part">
+            <div class="stats-box box01">
+              <div class="stats-text">
+                <span>355</span>
+                <span>2025.12.14</span>
+                <span>누적장기기증자</span>
+              </div>
+              
+              <figure class="stats-img"><img src="./images/heart-b.png" alt="누적장기기증자"></figure>
+            </div>
+
+            <div class="stats-box box02">
+              <div class="stats-text">
+                <span>170</span>
+                <span>2025.12.14</span>
+                <span>누적조직기증자</span>
+              </div>
+              
+              <figure class="stats-img"><img src="./images/organ-b.png" alt="누적조직기증자"></figure>
+            </div>
+         </div>
+        <!-- 통게 파트 -->
+      </div>
+    </article>
+  </section>
+  <!-- 베너 파트 -->
+
+   <section class="agency-introduce">
+     <div class="container">
+      <article class="intro-text">
+        <div class="intro-text-box">
+        <img src="./images/represent-logo.png" alt="한국장기조직기증원">
+        <h1><span>생명</span>과 <span>생명</span>을 잇는</h1>
+        <h1>글로벌 기증관리 전문기관</h1>
+        <p>보건복지부가 지정한 국내 유일한 장기 및 조직 구득기관으로서 뇌사추정자 또는 조직기증 희망자 발생 시 병원으로부터 통보를 받고, 기증 업무를 수행하는 기관입니다.</p>
+      </div>
+      </article>
+      <!-- 대표 텍스트 -->
+      <article class="intro-btn">
+        <div class="intro-btn-box">
+          <a href="#none" class="btn-wrap">
+            <div class="btn"><img src="./images/icon-ai 01-w.png" alt="기증희망등록"><span>기증희망등록하기</span></div>
+          </a>
+          <a href="#none" class="btn-wrap">
+            <div class="btn"><img src="./images/psychology_alt_24dp_FFF.svg" alt="물음표"><span>장기기증•조직기증이란</span></div>
+          </a>
+          <a href="#none" class="btn-wrap">
+            <div class="btn"><img src="./images/icon-ai 02-w.png" alt="예우"><span>기증자 예우</span></div>
+          </a>
+          <a href="#none" class="btn-wrap">
+            <div class="btn"><img src="./images/icon-ai 03-w.png" alt="KODA"><span>KODA</span></div>
+          </a>
+        </div>
+      </article>
+      <!-- 버튼들 -->
+     </div>
+    <!-- 메인 파트1 - 기관소개 -->
+    
+    <article class="intro-partner">
+     <div class="container">
+      <div class="swiper-btn">
+        <div class="tab-wrap">
+          <button class="tab active" data-tab="swiper01">뇌사자 관리업무</button>
+          <button class="tab" data-tab="swiper02">활성화 프로그램</button>
+        </div>
+        <div class="swiper-btn-wrap">
+          <div class="swiper-button-prev btn"></div>
+          <div class="swiper-button-next btn"></div>
+        </div>
+      </div>
+      <!-- 탭 영역 -->
+      
+      <div class="swiper active" id="swiper01">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-img-box">
+              <img src="./images/hospital01.jpg" alt="협력병원">
+              <img src="./images/hospital02.jpg" alt="협력병원">
+              <img src="./images/hospital03.jpg" alt="협력병원">
+              <img src="./images/hospital04.jpg" alt="협력병원">
+              <img src="./images/hospital05.jpg" alt="협력병원">
+              <img src="./images/hospital06.jpg" alt="협력병원">
+            </div>
+            <div class="swiper-img-box">
+              <img src="./images/hospital07.jpg" alt="협력병원">
+              <img src="./images/hospital08.jpg" alt="협력병원">
+              <img src="./images/hospital09.jpg" alt="협력병원">
+              <img src="./images/hospital10.jpg" alt="협력병원">
+              <img src="./images/hospital11.jpg" alt="협력병원">
+              <img src="./images/hospital12.jpg" alt="협력병원">
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="swiper-img-box">
+              <img src="./images/hospital01.jpg" alt="협력병원">
+              <img src="./images/hospital02.jpg" alt="협력병원">
+              <img src="./images/hospital03.jpg" alt="협력병원">
+              <img src="./images/hospital04.jpg" alt="협력병원">
+              <img src="./images/hospital05.jpg" alt="협력병원">
+              <img src="./images/hospital06.jpg" alt="협력병원">
+            </div>
+            <div class="swiper-img-box">
+              <img src="./images/hospital07.jpg" alt="협력병원">
+              <img src="./images/hospital08.jpg" alt="협력병원">
+              <img src="./images/hospital09.jpg" alt="협력병원">
+              <img src="./images/hospital10.jpg" alt="협력병원">
+              <img src="./images/hospital11.jpg" alt="협력병원">
+              <img src="./images/hospital12.jpg" alt="협력병원">
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="swiper-img-box">
+              <img src="./images/hospital01.jpg" alt="협력병원">
+              <img src="./images/hospital02.jpg" alt="협력병원">
+              <img src="./images/hospital03.jpg" alt="협력병원">
+              <img src="./images/hospital04.jpg" alt="협력병원">
+              <img src="./images/hospital05.jpg" alt="협력병원">
+              <img src="./images/hospital06.jpg" alt="협력병원">
+            </div>
+            <div class="swiper-img-box">
+              <img src="./images/hospital07.jpg" alt="협력병원">
+              <img src="./images/hospital08.jpg" alt="협력병원">
+              <img src="./images/hospital09.jpg" alt="협력병원">
+              <img src="./images/hospital10.jpg" alt="협력병원">
+              <img src="./images/hospital11.jpg" alt="협력병원">
+              <img src="./images/hospital12.jpg" alt="협력병원">
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="swiper-img-box">
+              <img src="./images/hospital01.jpg" alt="협력병원">
+              <img src="./images/hospital02.jpg" alt="협력병원">
+              <img src="./images/hospital03.jpg" alt="협력병원">
+              <img src="./images/hospital04.jpg" alt="협력병원">
+              <img src="./images/hospital05.jpg" alt="협력병원">
+              <img src="./images/hospital06.jpg" alt="협력병원">
+            </div>
+            <div class="swiper-img-box">
+              <img src="./images/hospital07.jpg" alt="협력병원">
+              <img src="./images/hospital08.jpg" alt="협력병원">
+              <img src="./images/hospital09.jpg" alt="협력병원">
+              <img src="./images/hospital10.jpg" alt="협력병원">
+              <img src="./images/hospital11.jpg" alt="협력병원">
+              <img src="./images/hospital12.jpg" alt="협력병원">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 뇌사자 관리업무 -->
+      <div class="swiper " id="swiper02">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-img-box">
+              <img src="./images/hospital02.jpg" alt="협력병원">
+              <img src="./images/hospital01.jpg" alt="협력병원">
+              <img src="./images/hospital03.jpg" alt="협력병원">
+              <img src="./images/hospital04.jpg" alt="협력병원">
+              <img src="./images/hospital05.jpg" alt="협력병원">
+              <img src="./images/hospital06.jpg" alt="협력병원">
+            </div>
+            <div class="swiper-img-box">
+              <img src="./images/hospital07.jpg" alt="협력병원">
+              <img src="./images/hospital08.jpg" alt="협력병원">
+              <img src="./images/hospital09.jpg" alt="협력병원">
+              <img src="./images/hospital10.jpg" alt="협력병원">
+              <img src="./images/hospital11.jpg" alt="협력병원">
+              <img src="./images/hospital12.jpg" alt="협력병원">
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="swiper-img-box">
+              <img src="./images/hospital01.jpg" alt="협력병원">
+              <img src="./images/hospital02.jpg" alt="협력병원">
+              <img src="./images/hospital03.jpg" alt="협력병원">
+              <img src="./images/hospital04.jpg" alt="협력병원">
+              <img src="./images/hospital05.jpg" alt="협력병원">
+              <img src="./images/hospital06.jpg" alt="협력병원">
+            </div>
+            <div class="swiper-img-box">
+              <img src="./images/hospital07.jpg" alt="협력병원">
+              <img src="./images/hospital08.jpg" alt="협력병원">
+              <img src="./images/hospital09.jpg" alt="협력병원">
+              <img src="./images/hospital10.jpg" alt="협력병원">
+              <img src="./images/hospital11.jpg" alt="협력병원">
+              <img src="./images/hospital12.jpg" alt="협력병원">
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="swiper-img-box">
+              <img src="./images/hospital01.jpg" alt="협력병원">
+              <img src="./images/hospital02.jpg" alt="협력병원">
+              <img src="./images/hospital03.jpg" alt="협력병원">
+              <img src="./images/hospital04.jpg" alt="협력병원">
+              <img src="./images/hospital05.jpg" alt="협력병원">
+              <img src="./images/hospital06.jpg" alt="협력병원">
+            </div>
+            <div class="swiper-img-box">
+              <img src="./images/hospital07.jpg" alt="협력병원">
+              <img src="./images/hospital08.jpg" alt="협력병원">
+              <img src="./images/hospital09.jpg" alt="협력병원">
+              <img src="./images/hospital10.jpg" alt="협력병원">
+              <img src="./images/hospital11.jpg" alt="협력병원">
+              <img src="./images/hospital12.jpg" alt="협력병원">
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="swiper-img-box">
+              <img src="./images/hospital01.jpg" alt="협력병원">
+              <img src="./images/hospital02.jpg" alt="협력병원">
+              <img src="./images/hospital03.jpg" alt="협력병원">
+              <img src="./images/hospital04.jpg" alt="협력병원">
+              <img src="./images/hospital05.jpg" alt="협력병원">
+              <img src="./images/hospital06.jpg" alt="협력병원">
+            </div>
+            <div class="swiper-img-box">
+              <img src="./images/hospital07.jpg" alt="협력병원">
+              <img src="./images/hospital08.jpg" alt="협력병원">
+              <img src="./images/hospital09.jpg" alt="협력병원">
+              <img src="./images/hospital10.jpg" alt="협력병원">
+              <img src="./images/hospital11.jpg" alt="협력병원">
+              <img src="./images/hospital12.jpg" alt="협력병원">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 활성화 프로그램 -->
+    </div> 
+  
+    <!-- 스와이퍼 -->
+    <!-- 메인 파트1 - 협력기관소개 -->
+    </article>
+   </section>
+  
+  <section class="agency-informaiton">
+  <div class="container">
+    <article class="notice">
+      <div class="notice-tab">
+        <ul>
+          <h4>알림마당</h4>
+          <li class="borad-tab" data-btn="borad01">공지사항</li>
+          <li class="borad-tab" data-btn="borad02">보도자료</li>
+          <li class="borad-tab" data-btn="borad03">기관일정</li>
+        </ul>
+        <span class="more"><a href="#none">더보기</a></span>
+        <!-- 탭 버튼 -->
+      </div>
+      <div class="notice-info active" id="borad01">
+        <a href="#none" class="info-text-wrap">
+         <div class="info-text-box">
+           <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              2026년 1분기 KODA 진단검사의학과의원 질가산율 고시
+            </span>
+            <span>2025.00.00</span>
+          </div>
+           <div class="info-content on">2026년 1분기 한국장기조직기증원 진단검사의학과의원 질가산율 고시합니다.</div>
+        </div>
+       </a>
+       <a href="#none" class="info-text-wrap">
+        <div class="info-text-box">
+          <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              2022~2024년 생명나눔 사례집 장애인 접근성 추가 PDF 교체 안내
+            </span>
+            <span>2025.00.00</span>
+          </div>
+          <div class="info-content">한국장기조직기증원은 국립장애인도서관이 주관한 "2025년 공공간행물(PDF)에 대한 접근성 지원 사업"에 선정되었습니다. 이에 따라 기존 게시되었던 2022년~2024년 생명나눔 사례집을 장애인 접근성이 추가된 PDF/UA*파일로 교체하여 제공합니다.</div>
+       </div>
+      </a>
+      <a href="#none" class="info-text-wrap">
+        <div class="info-text-box">
+          <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              2025년 심폐소생술 교육참여자 선착순 모집
+            </span>
+            <span>2025.00.00</span>
+          </div>
+          <div class="info-content">한국장기조직기증원과 한국공공조직은행, 한국보건의료인국가시험원 3개 기관이 협력하여 국민을 위해 무료 심폐소생술 교육을 시행합니다. 이번 교육은 국민 생명 보호와 응급 대응 역량 강화를 위해 3개 기관이 뜻을 모아 사회공헌으로 추진하게 된 행사입니다.</div>
+       </div>
+      </a>
+      <a href="#none" class="info-text-wrap">
+        <div class="info-text-box">
+          <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              「APEC 2025 부대행사, 글로벌 장애청소년 IT 챌린지」
+            </span>
+            <span>2025.00.00</span>
+          </div>
+          <div class="info-content">
+            □ 개 요
+            ○ 대회명: APEC 2025 부대행사, 글로벌장애청소년IT챌린지
+            ○ 목 적
+            국내외 장애청소년들의 ICT 역량강화 및 사회진출 기반 강화
+            매년 순회 개최를 통한 국가·사회적 차원의 인식변화</div>
+       </div>
+      </a>
+      <a href="#none" class="info-text-wrap">
+        <div class="info-text-box">
+          <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              2025년 지진안전주간 맞이 지진행동요령 안내
+            </span>
+            <span>2025.00.00</span>
+          </div>
+          <div class="info-content">.</div>
+       </div>
+      </a>
+      </div>
+      <!-- 공지사항 -->
+
+      <div class="notice-info" id="borad02">
+        <a href="#none" class="info-text-wrap">
+         <div class="info-text-box">
+           <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              “승무원을 꿈꾸던 11살 김하음 양, 뇌사 장기기증으로 4명의 생명 살리고 떠나”
+            </span>
+            <span>2025.00.00</span>
+          </div>
+           <div class="info-content on">한국장기조직기증원(원장 이삼열)은 11월 7일  순천향대학교 천안병원에서 김하음(11세) 님이 뇌사 장기기증으로 4명의 생명을 살리고 하늘의 별이 되어 떠났다고 밝혔다.</div>
+        </div>
+       </a>
+       <a href="#none" class="info-text-wrap">
+        <div class="info-text-box">
+          <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              “67세 오영선 씨. 삶의 끝에서 뇌사 장기기증으로 3명 생명 살리고 떠나”
+            </span>
+            <span>2025.00.00</span>
+          </div>
+          <div class="info-content">한국장기조직기증원(원장 이삼열)은 10월 20일 양산부산대학교병원에서 오영선(67세) 님이 뇌사 장기기증으로 3명의 소중한 생명을 살리고 하늘의 별이 되어 떠났다고 밝혔다.</div>
+       </div>
+      </a>
+      <a href="#none" class="info-text-wrap">
+        <div class="info-text-box">
+          <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              “2025 한국장기조직기증원 포럼 성료… 중환자의학에서 바라본 장기기증”
+            </span>
+            <span>2025.00.00</span>
+          </div>
+          <div class="info-content">한국장기조직기증원(원장 이삼열)은 지난 12일 서울 영등포구 켄싱턴호텔 여의도 센트럴파크에서 ‘2025 KODA 포럼’을 성공적으로 개최했다고 밝혔다.</div>
+       </div>
+      </a>
+      <a href="#none" class="info-text-wrap">
+        <div class="info-text-box">
+          <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              “부천 제일 시장 트럭 돌진 사고.... 20대 청년 문영인 씨, 뇌사 장기기증으로 3명 살리고 하늘나라로”
+            </span>
+            <span>2025.00.00</span>
+          </div>
+          <div class="info-content">
+            한국장기조직기증원(원장 이삼열)은 11월 18일 이대서울병원에서 문영인(23세) 님이 뇌사 장기기증으로 3명의 소중한 생명을 살리고 하늘의 별이 되어 떠났다고 밝혔다.</div>
+       </div>
+      </a>
+      <a href="#none" class="info-text-wrap">
+        <div class="info-text-box">
+          <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              “두 아이의 엄마 44세 최경미 씨, 뇌사 장기기증과 인체조직기증 실천”
+            </span>
+            <span>2025.00.00</span>
+          </div>
+          <div class="info-content">한국장기조직기증원(원장 이삼열)은 10월 22일 창원경상국립대학교병원에서 최경미(44세) 님이 뇌사 장기기증으로 4명의 생명을 살리고 인체 조직기증으로 백여 명 환자의 기능적 장애 회복에 희망을 선물하였다고 밝혔다.</div>
+       </div>
+      </a>
+      </div>
+      <!-- 보도자료 -->
+
+      <div class="notice-info" id="borad03">
+        <a href="#none" class="info-text-wrap">
+         <div class="info-text-box">
+           <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              [기관장 참석]한국공공조직은행 간담회
+            </span>
+            <span>2025.00.00</span>
+          </div>
+           <div class="info-content on">[기관장 참석]한국공공조직은행 간담회</div>
+        </div>
+       </a>
+       <a href="#none" class="info-text-wrap">
+        <div class="info-text-box">
+          <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              [기관장 참석]대통령 부처별 업무보고
+            </span>
+            <span>2025.00.00</span>
+          </div>
+          <div class="info-content">[기관장 참석]대통령 부처별 업무보고</div>
+       </div>
+      </a>
+      <a href="#none" class="info-text-wrap">
+        <div class="info-text-box">
+          <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              [기관장 참석]한국공공조직은행 이사회, (DIP협약식) 대자인병원
+            </span>
+            <span>2025.00.00</span>
+          </div>
+          <div class="info-content">[기관장 참석]한국공공조직은행 이사회, (DIP협약식) 대자인병원</div>
+       </div>
+      </a>
+      <a href="#none" class="info-text-wrap">
+        <div class="info-text-box">
+          <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              [기관장 참석]2025년 제4차 정기 이사회
+            </span>
+            <span>2025.00.00</span>
+          </div>
+          <div class="info-content">
+            [기관장 참석]2025년 제4차 정기 이사회</div>
+       </div>
+      </a>
+      <a href="#none" class="info-text-wrap">
+        <div class="info-text-box">
+          <div class="info-title">
+            <span>
+              <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
+              [기관장 참석]생명나눔 장학금 전달식
+            </span>
+            <span>2025.00.00</span>
+          </div>
+          <div class="info-content">[기관장 참석]생명나눔 장학금 전달식</div>
+       </div>
+      </a>
+      </div>
+      <!-- 기관일정 -->
+      <!-- 공지 보드 -->
+    </article>
+    <!-- 메인 파트2 - 공지/뉴스 -->
+  
+    <article class="notice-swiper">
+       <div class="swiperaside">
+        <div class="notice-swiper-btn-box">
+          <div class="swiper-pagination"></div>
+          <div class="swiper-buttons">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div> 
+        </div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/기관행사.png" alt="기관행사썸네일"></div>
+          <div class="swiper-slide"><img src="images/기관행사2.png" alt="기관행사썸네일"></div>
+          <div class="swiper-slide"><img src="images/기관행사3.png" alt="기관행사썸네일"></div>
+          <div class="swiper-slide"><img src="images/기관행사4.png" alt="기관행사썸네일"></div>
+          <div class="swiper-slide"><img src="images/기관행사5.png" alt="기관행사썸네일"></div>
+          <div class="swiper-slide"><img src="images/기관행사6.png" alt="기관행사썸네일"></div>
+        </div>
+      </div>
+    </article>
+    <!-- 메인 파트2 - 스와이퍼 메뉴 -->
+  </div>
+  </section>
+
+  <section class="employee-news">
+   <div class="container">
+    <article class="em-btn">
+     <button class="news-btn active" data-news="news01">채용</button>
+     <button class="news-btn" data-news="news02">입찰</button>
+    </article>
+
+    <article class="em-news-texts active" id="news01">
+      <div class="em-news-wrapper">
+        <a href="#none" class="em-text-wrapper">
+          <div class="em-text-box">
+            <div class="em-icons">
+              <span>채용공고<i><img src="./images/demography_24_FFF.svg" alt="채용공고 아이콘"></i></span><span>2025.00.00</span>
+            </div>
+            <div class="em-title">2025년 제4차 공개채용 최종합격자 및 예비합격자 발표</div>
+          </div>
+        </a>        
+        <a href="#none" class="em-text-wrapper">
+          <div class="em-text-box">
+            <div class="em-icons">
+              <span>채용공고<i><img src="./images/demography_24_FFF.svg" alt="채용공고 아이콘"></i></span><span>2025.00.00</span>
+            </div>
+            <div class="em-title">2025년 제4차 공개채용 서류전형 합격자 발표</div>
+          </div>
+        </a>        
+        <a href="#none" class="em-text-wrapper">
+          <div class="em-text-box">
+            <div class="em-icons">
+              <span>채용공고<i><img src="./images/demography_24_FFF.svg" alt="채용공고 아이콘"></i></span><span>2025.00.00</span></div>
+            <div class="em-title">2025년 제4차 공개채용(수정)</div>
+          </div>
+        </a>         
+        <a href="#none" class="em-text-wrapper">
+          <div class="em-text-box">
+            <div class="em-icons">
+              <span>채용공고<i></i><img src="./images/demography_24_FFF.svg" alt="채용공고 아이콘"></span><span>2025.00.00</span>
+            </div>
+            <div class="em-title">2025년 제3차 공개채용 최종합격자 및 예비합격자 발표</div>
+          </div>
+         </a>
+         <a href="#noen" class="em-btn-wrapper">
+           <div class="em-btn-text-box">
+            <div class="btn-text">
+             <h4>채용공고</h4>
+             <span>더보기</span>
+            </div>
+            <img src="images/demography_24_FFF.svg" alt="채용공고아이콘">
+           </div>
+         </a>
+  
+      </div>
+    </article>
+    <!-- 채용공고 -->
+    
+    <article class="em-news-texts" id="news02">
+    <div class="em-news-wrapper">
+      <a href="#none" class="em-text-wrapper">
+        <div class="em-text-box">
+          <div class="em-icons">
+            <span>입찰공고<i><img src="./images/demography_24_FFF.svg" alt="채용입찰아이콘"></i></span><span>2025.00.00</span>
+          </div>
+          <div class="em-title">(재)한국장기조직기증원 2026~2027년 뇌사장기기증 검체운송 용역</div>
+        </div>
+      </a>
+      <a href="#none" class="em-text-wrapper">
+        <div class="em-text-box">
+          <div class="em-icons">
+            <span>입찰공고<i><img src="./images/demography_24_FFF.svg" alt="채용입찰아이콘"></i></span><span>2025.00.00</span>
+          </div>
+          <div class="em-title">(재)한국장기조직기증원 퇴직연금사업자 선정 입찰 공고</div>
+        </div>
+      </a>
+      <a href="#none" class="em-text-wrapper">
+        <div class="em-text-box">
+          <div class="em-icons">
+            <span>입찰공고<i><img src="./images/demography_24_FFF.svg" alt="채용입찰아이콘"></i></span><span>2025.00.00</span></div>
+          <div class="em-title">홈페이지 취약점 조치 및 기능개선 입찰 공고</div>
+        </div>
+      </a>
+      <a href="#none" class="em-text-wrapper">
+        <div class="em-text-box">
+          <div class="em-icons">
+            <span>입찰공고<i></i><img src="./images/demography_24_FFF.svg" alt="채용입찰아이콘"></span><span>2025.00.00</span>
+          </div>
+          <div class="em-title">유세포분석기 1SET 구매</div>
+        </div>
+       </a>
+      <a href="#noen" class="em-btn-wrapper">
+        <div class="em-btn-text-box">
+          <div class="btn-text">
+            <h4>입찰공고</h4>
+            <span>더보기</span>
+          </div>
+            <img src="images/demography_24_FFF.svg" alt="채용공고아이콘">
+        </div>
+      </a>
+     </div>
+    </article>
+    <!-- 입찰공고 -->
+   </div>
+  </section>
+  <!-- 메인 파트3 - 채용/입찰 -->
+  
+  <section class="doner-memorial">
+   <div class="container">
+    <article class="funeral">
+      <div class="funeral-title"><h4>기증자 추모관</h4> <span><a href="#none">더보기</a></span></div>
+       <div class="funeral-wrap">
+        <div class="funeral-text-box">
+          <div class="doner-name"><h4>지정순</h4><span>기증자</span><span>2025.00.00</span></div>
+          <div class="doner-info">기증자 지정순(여, 68)님은 2025년 11월 14일 환자들에게 귀중한 장기를 선물해주셨습니다. 한국장기조직기증원은 귀한 생명을 나눠주신 기증자와 유가족께 깊이 감사드리며,앞으로도 기증자 유가족들이 건강한 삶을 유지할 수 있도록 최선을 다해 지원할 것입니다.</div>
+          <div class="rip">고인의 명복을 빕니다.</div>
+        </div>
+        <figure class="flower"><img src="images/국화.png" alt="조화"></figure>
+       </div>
+    </article>
+  <!-- 메인 파트4 - 기증자 추모관 -->
+    <article class="heavenpost">
+      <div class="post-title">하늘나라 편지쓰기</div>
+      <div class="doner-wrap">
+        <a href="#none" class="doner-text-box">
+         <i><img src="images/blue-rebone.svg" alt="추모리본">편지쓰기</i>
+         <h4>오영미</h4><span>기증자</span><span>2025.00.00</span>
+        </a>     
+      </div>
+      <div class="doner-wrap">
+        <a href="#none" class="doner-text-box">
+          <i><img src="images/blue-rebone.svg" alt="추모리본">편지쓰기</i>
+          <h4>박용신</h4><span>기증자</span><span>2025.00.00</span>
+        </a>     
+      </div>
+      <div class="doner-wrap">
+        <a href="#none" class="doner-text-box">
+          <i><img src="images/blue-rebone.svg" alt="추모리본">편지쓰기</i>
+          <h4>문미숙</h4><span>기증자</span><span>2025.00.00</span>
+        </a>     
+      </div>
+      <div class="doner-wrap">
+        <a href="#none" class="doner-text-box">
+          <i><img src="images/blue-rebone.svg" alt="추모리본">편지쓰기</i>
+          <h4>신성대</h4><span>기증자</span><span>2025.00.00</span>
+        </a>     
+      </div>
+    </article>
+  <!-- 메인 파트4 - 기증자 편지쓰기 -->
+   </div>
+  </section>
+<!--  메인 파트4 - 기증자 추모관/기증자 편지쓰기  -->
+
+  <section class="doner-story">
+    <div class="container"><h3 class="main-title">생명나눔이야기</h3></div>
+     <div class="container"> 
+      <article class="story-wrap">
+      <a href="#none" class="story-box">
+       <figure class="doner-img"><img src="images/story_th01.jpg" alt="이야기썸네일"></figure>
+
+        <div class="story-text-box">
+         <div class="icon-box">
+          <span>생명나눔이야기</span><i><img src="images/youtube-brands-solid-full.svg" alt="유튜브"></i>
+        </div>
+        <div class="story-title">
+          <h4>김남연 기증자의 이야기</h4>
+          <p>수화 자격증까지 취득한 열혈 봉사자, 마지막 순간 생명나눔으로 기적을 남기다</p>
+        </div>   
+        <span class="more-story">바로가기</span> 
+       </div>
+      </a>
+     </article>
+
+     <article class="story-wrap">
+      <a href="#none" class="story-box">
+       <figure class="doner-img"><img src="images/thumnail.jpg" alt="이야기썸네일"></figure>
+
+        <div class="story-text-box">
+         <div class="icon-box">
+          <span>생명나눔이야기</span><i><img src="images/youtube-brands-solid-full.svg" alt="유튜브"></i>
+        </div>
+        <div class="story-title">
+          <h4>이동진 기증자의 이야기</h4>
+          <p>시력 잃고 장애인 돕던 청년, 3명 살리고 떠나 이동진님의 생명나눔 이야기</p>
+        </div>   
+        <span class="more-story">바로가기</span> 
+       </div>
+      </a>
+     </article>
+
+     <article class="story-wrap">
+      <a href="#none" class="story-box">
+       <figure class="doner-img"><img src="images/thumnail06.jpg" alt="이야기썸네일"></figure>
+
+        <div class="story-text-box">
+         <div class="icon-box">
+          <span>생명나눔이야기</span><i><img src="images/youtube-brands-solid-full.svg" alt="유튜브"></i>
+        </div>
+        <div class="story-title">
+          <h4>윤기명 기증자의 이야기</h4>
+          <p>암을 극복한 가장, 마지막 순간 5명에게 기적을 선물하다</p>
+        </div>   
+        <span class="more-story">바로가기</span> 
+       </div>
+      </a>
+     </article>
+
+     <article class="story-btn-wrap">
+      <a href="#none" class="story-btn-box">
+       <span>더보기</span>
+       <h4>가슴 따뜻해지는 생명 나눔 이야기를 소개합니다</h4>
+       <img src="images/person_heart_FFF.svg" alt="생명나눔이야기">
+      </a>
+      <a href="#none" class="library-btn">
+        <span>생명나눔도서관</span><span>바로가기</span>
+      </a>
+     </article>
+    </div>
+  </section>
+  <!-- 메인 파트5 - 생명나눔 이야기 -->  
+  </main>
+  <!-- 메인 파트 -->
+
+  <footer>
+    <div class="gov-img-box">
+      <a href="#none">
+        <img src="images/gov_agency01.jpg" alt="보건복지부">
+      </a>
+      <a href="#none">
+        <img src="images/gov_agency02.jpg" alt="보건복지부">
+      </a>
+      <a href="#none">
+        <img src="images/gov_agency03.jpg" alt="보건복지부">
+      </a>
+      <a href="#none">
+        <img src="images/gov_agency04.jpg" alt="보건복지부">
+      </a>
+    </div>
+    <div class="footer-link">
+      <div class="container">
+      <div class="location">
+        <img src="./images/logo-main-png.png" alt="한국장기조직기증원KODA">
+        <p>서울시 서대문구 충정로 36 국민연금공단충정로사옥5층 한국장기조직기증원 (우)03741</p>
+        <p>Tel : 02-3447-5632 / Fax : 02-3447-5631 / E-Mail : koda@koda1458.kr</p>
+        <p>Copyright (c) 2015 All Rights Reserved.</p>
+      </div>
+      <div class="sns-link">
+        <a href="#none">위치안내</a>
+        <a href="#none">사이트 이용안내</a>
+        <div class="icons">
+         <a href="#none">
+            <i><img src="./images/youtube-brands-solid-full.svg" alt="유튜브"></i>
+         </a>
+         <a href="#none">
+            <i><img src="./images/square-facebook-brands-solid-full.svg" alt="페이스북"></i>
+         </a>
+          <a href="#none">
+            <i><img src="./images/square-x-twitter-brands-solid-full.svg" alt="엑스"></i>
+          </a>  
+         <a href="#none">
+            <i><img src="./images/square-instagram-brands-solid-full.svg" alt="인스타그램"></i>
+         </a> 
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="footer-policy">
+     <div class="container">
+      <div class="policy">
+        <a href="#none">개인정보 처리방침</a>
+        <a href="#none">경영공시</a>
+        <a href="#none">유관기관</a>
+        <a href="#none">기증희망등록</a>
+        <a href="#none">저작권 정책</a>
+      </div>
+      <div class="marks">
+        <img src="./images/gov_mark01.png" alt="인증마크">
+        <img src="./images/gov_mark02.png" alt="인증마크">
+        <img src="./images/gov_mark03.png" alt="인증마크">
+        <img src="./images/goc_mark04.png" alt="인증마크">
+      </div>
+     </div>
+    </div> 
+  </footer>
+  <!-- 푸터 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

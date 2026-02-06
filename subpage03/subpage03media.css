@@ -1,0 +1,108 @@
+@media(max-width:500px){
+  .container{width: 468px;}
+  header{
+    display: flex;
+    align-items: center;
+    width: 100%; height: 80px;
+  }
+  header .number, .header-top, .header-mid, .main-nav ul{display: none;}
+  .main-nav .mobile-logo{display: block;}
+  .main-nav .search-icon{display: block; margin-left: 187px;}
+  .main-nav .sitemap-icon{margin-left: 23px;}
+  .main-nav .sitemap-icon p{display: block;}
+  .main-nav .sitemap-icon img{width: 30px; height: 30px;}
+ 
+  .site-map .container{flex-direction: column;}
+  .site-map.active{max-height: 3200px;}
+  .site-map-links{width: 100%; margin: 15px 0;}
+  /* 헤더 파트 */
+  
+  /* 베너 파트 */
+
+  .sitelink-service{width: 468px;}
+  .sitelink .link-main{display: none;}
+  .site-icons{margin-right: 35px;}
+  .sitelink-click{left: 90px;}
+   /* 사이트 제공 링크 */
+
+  .link-path{text-align: center;}
+  .notice-title-textbox{justify-content: center;}
+  /* 메인 파트: 상단 텍스트 */
+  
+  .logo-image::before, .logo-image::after{width: 100%;}
+  .represent p{
+    width: 90%;
+    margin: auto;
+    font-family: var(--font-sm);
+    font-size: var(--font-size-sm-base);
+    font-weight: var(--font-weight-s);
+  }
+  /* 메인 파트: 기관 소개 */
+  .agency-vision{margin: 180px 0;}
+  .agency-vision .container{gap: 140px;}
+  .main-goal, .main-value, .main-vision{flex-direction: column; align-items: center; gap: 20px;}
+  .main-goal .line, .main-value .line, .main-vision .line{width: 70px; height: 60px; overflow: hidden;}
+  .main-goal .line img, .main-value .line img, .main-vision .line img{transform: rotate(90deg) translateY(750%) translateX(-37%); width: 370px; height: 20px;}
+  /* 목표 */
+  .main-goal .goal{margin: 0;}
+  .main-goal .goal-content{width: 468px; margin: 0;}
+  /* 핵심가치 */
+  .main-value .value{margin: 0;}
+  .main-value .value-content{margin: 98px 0 0 0;}
+  .main-value .value-content span{width: 150px; height: 150px; line-height: 150px}
+  .main-value .value-content .vertex1{top: -40%; left: 50%; transform: translateX(-50%);}
+  .main-value .value-content .vertex2{top: 0%; left: -30%;}
+  .main-value .value-content .vertex3{bottom: -25%; left: -10%;}
+  .main-value .value-content .vertex4{bottom: -25%; left: 55%;}
+  .main-value .value-content .vertex5{top: -2%; left: 73%;}
+  /* 비젼 */
+  .main-vision .vision{margin: 0;}
+  .main-vision .vision-content{width: 468px; margin: 0;}
+  
+  /* 메인 파트: 비전 */
+  .goal-wrap{width: 100%; height: 360px;}
+  .goal-wrap h4{width: 100%; top: -16%;}
+  .goal-wrap .goal-list{flex-direction: column;}
+  .goal-wrap .goal-list li:nth-child(1){margin: 0 0 40px 0;}
+  .goal-wrap .goal-list li:nth-child(2){
+    width: 180px; height: 110px;
+    line-height: 110px;
+    border-top: 2px solid var(--color-blue-pastel);
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid var(--color-blue-pastel);
+  }
+  .goal-wrap .goal-list li:nth-child(3){margin: 40px 0 0 0;}
+
+
+  .gov-img-box{
+    gap: 10px;
+    width: 100%; height: 55px;
+  }
+  .gov-img-box a img{
+    width: 110px; height: 55px;
+  }
+  .footer-link .container{
+    flex-direction: column;
+  }
+  .location{
+    flex: 1;
+    text-align: center;
+  }
+  .location p{margin: 15px 0px;}
+  .sns-link{flex: 1; text-align: center;}
+  .sns-link .icons{margin-top: 10px;}
+  .footer-policy .container{
+    align-items: center;
+    flex-direction: column;
+  }
+  .policy a{
+    font-family: var(--font-sm);
+    font-size: var(--font-size-sm-14);
+    font-weight: var(--font-weight-s);
+    margin: 0 7.5px;
+  }
+  .policy a:first-child{margin-left: 0;}
+  .marks img{margin: 30px 5px;}
+  /* 푸터 */
+}
