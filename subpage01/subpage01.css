@@ -4,6 +4,7 @@ a{text-decoration: none; color: black;}
 /*hover-ani*/
 /*java-ani*/
 
+
 header{
   width: 100%; height: 182px;
   background-color: var(--color-text-white);
@@ -132,6 +133,11 @@ header{
   margin-bottom: 5px;
 }
 .main-nav .sitemap-icon{
+  display: flex;
+  height: 30px;
+	flex-direction: column;
+  align-items: center;
+	gap: 6px; 
   cursor: pointer;
   text-align: center;
 }
@@ -142,16 +148,32 @@ header{
   color: var(--color-text-b-gray);
   display: none;
 }
-.main-nav .sitemap-icon img{
-  width: 24px; height: 24px;
-  margin-bottom: 5px;
+.main-nav .sitemap-icon span{
+  display: inline-block;
+	width: 24px; height: 3px;
+	background-color: gray;
+	position: relative;
+	transition: 0.2s;
 }
 /*hover-ani*/
 .main-nav ul .menu-itme:hover a{color: var(--color-red-primary);}
 .main-nav .sitemap-icon:hover img{
   filter: brightness(0) saturate(100%) invert(12%) sepia(98%) saturate(6546%) hue-rotate(353deg) brightness(92%) contrast(95%);
 }
-/*hover-ani*/
+/* java-ani */
+.main-nav .sitemap-icon.active span{background-color: red;}
+.main-nav .sitemap-icon.active span:nth-child(1){
+	top: 20%;
+	transform: rotate(45deg);
+}
+.main-nav .sitemap-icon.active span:nth-child(2){
+	opacity: 0;
+}
+.main-nav .sitemap-icon.active span:nth-child(3){
+	bottom: 40%;
+	transform: rotate(-45deg);
+}
+.main-nav ul .menu-itme.active a{color: var(--color-red-primary);}
 
 .submenu-wrapper{position: relative;}
 .submenu{

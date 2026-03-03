@@ -41,9 +41,26 @@ console.log(siteMapToggle);
 console.log(siteMap);
 
 siteMapToggle.addEventListener('click', function(){
+  siteMapToggle.classList.toggle('active')
   siteMap.classList.toggle('active')
 })
 // 네비게이션 메뉴
+
+let quickMenu = document.querySelector('.quickmenu');
+
+window.addEventListener('scroll', () => {
+  // 현재 스크롤 위치
+  let scrollTop = window.scrollY || document.documentElement.scrollTop;
+
+  if (scrollTop >= 200) {
+    // 200px 이상 내려오면 클래스 추가
+    quickMenu.classList.add('scrolled');
+  } else {
+    // 200px 미만이면 클래스 제거
+    quickMenu.classList.remove('scrolled');
+  }
+});
+//스크롤 애니메이션
 
 let tabButtons = document.querySelectorAll('.tab');
 
@@ -88,41 +105,45 @@ tabButtons.forEach(button => {
 
 // 협력기관 탭버튼
 
+// 1. 탭 메뉴 로직
 let boradTab = document.querySelectorAll('.borad-tab');
 let noticeInfo = document.querySelectorAll('.notice-info');
 
-boradTab.forEach(function(boradbtn){
-  boradbtn.addEventListener('click', function(){
-    boradTab.forEach(function(b){
-      b.classList.remove('active')
-      console.log('active삭제')
-    });
-    this.classList.add('active')
-    console.log('추가');
-
-    noticeInfo.forEach(function(n){
-      n.classList.remove('active')
-    });
+boradTab.forEach(function(boradbtn) {
+  boradbtn.addEventListener('click', function() {
+    boradTab.forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
 
     let targetId = boradbtn.getAttribute('data-btn');
-    console.log(targetId);
-    noticeInfo.forEach(function(n){
-      if(n.id === targetId){
-        n.classList.add('active')
-      }else{
-        n.classList.remove('active')
+    noticeInfo.forEach(n => {
+      if (n.id === targetId) {
+        n.classList.add('active');
+      } else {
+        n.classList.remove('active');
       }
-    })
-  })
-})
+    });
+  });
+});
 
-let Choose = document.querySelectorAll('.info-text-box');
-Choose.forEach(enter => {
-  let Hover = enter.querySelector('.info-content');
-  console.log(enter);
-  enter.addEventListener('mouseenter', () => {Hover.classList.add('on')});
-  enter.addEventListener('mouseleave', () => {Hover.classList.remove('on')});
-})
+document.addEventListener('mouseover', (e) => {
+  let targetBox = e.target.closest('.info-text-box');
+  
+  if (targetBox) {
+    let hoverContent = targetBox.querySelector('.info-content');
+    targetBox.classList.add('on');
+    if (hoverContent) hoverContent.classList.add('on');
+  }
+});
+
+document.addEventListener('mouseout', (e) => {
+  let targetBox = e.target.closest('.info-text-box');
+  
+  if (targetBox) {
+    let hoverContent = targetBox.querySelector('.info-content');
+    targetBox.classList.remove('on');
+    if (hoverContent) hoverContent.classList.remove('on');
+  }
+});
 
 var Noticeswiper = new Swiper(".swiperaside", {
   spaceBetween: 30,

@@ -8,17 +8,27 @@
   header .number, .header-top, .header-mid, .main-nav ul{display: none;}
   .main-nav .mobile-logo{display: block;}
   .main-nav .search-icon{display: block; margin-left: 187px;}
-  .main-nav .sitemap-icon{margin-left: 23px;}
+  .main-nav .sitemap-icon{
+    margin-left: 23px;
+    text-align: center;
+  }
   .main-nav .sitemap-icon p{display: block;}
-  .main-nav .sitemap-icon img{width: 30px; height: 30px;}
- 
+  .main-nav .sitemap-icon span{
+    border: 1px solid var(--color-text-black);
+    width: 28px;
+  }
+  /* 헤더 파트 */
+  
+  .banner-background-image{background-position: center;}
+  .banner-text-part{top: 15%; text-align: center;}
+  .banner-text-part span:nth-child(1){margin-bottom: 0px;}
+  .banner-stats-part{top: 65%; right: 5%;}
+
   .site-map .container{flex-direction: column;}
   .site-map.active{max-height: 3200px;}
   .site-map-links{width: 100%;
   margin: 15px 0;}
-  /* 헤더 파트 */
-
-  /* 베너 파트 */
+  /* 베너파트 */
   
   .sitelink-service{width: 468px;}
   .sitelink .link-main{display: none;}

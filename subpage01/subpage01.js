@@ -37,9 +37,11 @@ subMenus.forEach(menu => {
 
 let siteMapToggle = document.getElementById('siteMapToggle');
 let siteMap = document.getElementById('siteMap');
-//console.log(siteMapToggle);
-//console.log(siteMap);
+console.log(siteMapToggle);
+console.log(siteMap);
+
 siteMapToggle.addEventListener('click', function(){
+  siteMapToggle.classList.toggle('active')
   siteMap.classList.toggle('active')
 })
 // 네비게이션 메뉴

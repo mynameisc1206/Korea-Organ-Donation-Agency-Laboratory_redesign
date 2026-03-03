@@ -8,16 +8,64 @@
   header .number, .header-top, .header-mid, .main-nav ul{display: none;}
   .main-nav .mobile-logo{display: block;}
   .main-nav .search-icon{display: block; margin-left: 187px;}
-  .main-nav .sitemap-icon{margin-left: 23px;}
+  .main-nav .sitemap-icon{
+    margin-left: 23px;
+    text-align: center;
+  }
   .main-nav .sitemap-icon p{display: block;}
-  .main-nav .sitemap-icon img{width: 30px; height: 30px;}
- 
+  .main-nav .sitemap-icon span{
+    border: 1px solid var(--color-text-black);
+    width: 28px;
+  }
+  /* 헤더 파트 */
+
+  .banner-background-image{background-position: center;}
+  .banner-text-part{top: 15%; text-align: center;}
+  .banner-text-part span:nth-child(1){margin-bottom: 0px;}
+  .banner-stats-part{top: 65%; right: 5%;}
+
   .site-map .container{flex-direction: column;}
   .site-map.active{max-height: 3200px;}
   .site-map-links{width: 100%;
   margin: 15px 0;}
-  /* 헤더 파트 */
+  /* 베너파트 */
 
+  .sitelink-service{
+    width: 468px; height: 160px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 35px auto 45px auto;
+  }
+  .sitelink{width: 234px; height: 80px;}
+  .sitelink:first-child{
+    width: 234px; height: 80px;
+    padding-left: 0;
+    border-bottom: 2px solid var(--color-text-white);
+  }
+  .sitelink:nth-child(2){border-right: none; border-bottom: 2px solid var(--color-text-white);}
+  .sitelink:last-child{
+    width: 234px; height: 80px; 
+    border: none;
+    padding-right: 0;
+  }
+  /* 사이트 제공 링크 */
+
+  .memorial-title .container p{display: none;}
+  /* 메인파트 : 제목 */
+
+  .search-doner{width: 468px; height: 280px;}
+  .doner-info{flex-direction: column; gap: 12px;}
+  .doner-info input[type="text"]{width: 440px;}
+  .doner-info #from, #to{width: 440px;}
+  .doner-info button{width: 440px;}
+  /* 메인파트 : 기증자 검색 */
+  
+  .doner-introduction .container{
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  /*  메인파트 : 기증자 소개 */
 
   .gov-img-box{
     gap: 10px;

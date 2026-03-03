@@ -12,6 +12,14 @@
   <title>한국장기조직기증원KODA 디자인 구현 과정</title>
 </head>
 <body>
+  <div class="quickmenu">
+    <ul class="quick-select-box">
+      <li><a href="#none"><img src="images/icon-ai 01.png" alt="기증희망"></a></li>
+      <li><a href="#none"><img src="images/icon-ai 02.png" alt="추모"></a></li>
+      <li><a href="#none"><img src="images/icon-ai 04.png" alt="희망우체통"></a></li>
+      <li class="totop"><a href="#"><img src="images/arrow_upward_24dp.svg" alt="">Top</a></li>
+    </ul>
+  </div>
   <header>
     <div class="number">
       <div class="container">
@@ -48,7 +56,7 @@
 
       <nav class="main-nav">
         <ul>
-          <li class="menu-itme" data-target="subMenu01"><a href="#none">KODA</a></li>
+          <li class="menu-itme" data-target="subMenu01"><a href="subpage03/subpage03.html">KODA</a></li>
           <li class="menu-itme" data-target="subMenu02"><a href="./subpage02/subpage02.html">추모공간</a></li>
           <li class="menu-itme" data-target="subMenu03"><a href="#none">장기·조직기증</a></li>
           <li class="menu-itme" data-target="subMenu04"><a href="./subpage01/subpage01.html">알림마당</a></li>
@@ -62,7 +70,9 @@
           <p>통합검색</p>
         </span>
         <span class="sitemap-icon" id="siteMapToggle">
-          <img src="./images/density_medium.svg" alt="사이트 메뉴">
+          <span></span>
+          <span></span>
+          <span></span>
           <p>전체메뉴</p>
         </span>
       </nav>
@@ -600,16 +610,16 @@
       <div class="notice-tab">
         <ul>
           <h4>알림마당</h4>
-          <li class="borad-tab" data-btn="borad01">공지사항</li>
+          <li class="borad-tab active" data-btn="borad01">공지사항</li>
           <li class="borad-tab" data-btn="borad02">보도자료</li>
           <li class="borad-tab" data-btn="borad03">기관일정</li>
         </ul>
-        <span class="more"><a href="#none">더보기</a></span>
+        <span class="more"><a href="subpage01/subpage01.html">더보기</a></span>
         <!-- 탭 버튼 -->
       </div>
       <div class="notice-info active" id="borad01">
         <a href="#none" class="info-text-wrap">
-         <div class="info-text-box">
+         <div class="info-text-box on">
            <div class="info-title">
             <span>
               <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
@@ -678,7 +688,7 @@
 
       <div class="notice-info" id="borad02">
         <a href="#none" class="info-text-wrap">
-         <div class="info-text-box">
+         <div class="info-text-box on">
            <div class="info-title">
             <span>
               <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>
@@ -743,7 +753,7 @@
 
       <div class="notice-info" id="borad03">
         <a href="#none" class="info-text-wrap">
-         <div class="info-text-box">
+         <div class="info-text-box on">
            <div class="info-title">
             <span>
               <i><img src="./images/campaign_FFF.svg" alt="공지사항"></i>

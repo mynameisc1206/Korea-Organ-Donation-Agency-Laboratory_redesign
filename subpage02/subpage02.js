@@ -37,14 +37,14 @@ subMenus.forEach(menu => {
 
 let siteMapToggle = document.getElementById('siteMapToggle');
 let siteMap = document.getElementById('siteMap');
-//console.log(siteMapToggle);
-//console.log(siteMap);
+console.log(siteMapToggle);
+console.log(siteMap);
 
 siteMapToggle.addEventListener('click', function(){
+  siteMapToggle.classList.toggle('active')
   siteMap.classList.toggle('active')
 })
-
-// 네비게이션
+// 네비게이션 메뉴
 
 let linkButtons = document.querySelectorAll('.sitelink');
 //console.log(linkButtons);
@@ -75,9 +75,9 @@ donerLInk.forEach(out => {
 
 // 마우스 호버 시
 
-/*
-let rows = document.querySelectorAll('.notice-text-wrap');
-let rowPerPage = 13;
+
+let rows = document.querySelectorAll('.doner');
+let rowPerPage = 15;
 let rowCount = rows.length;
 let pageCount = Math.ceil(rowCount/rowPerPage);
 let pageNumbers = document.querySelector('.page-number');
@@ -165,5 +165,5 @@ PageNextBtn.addEventListener('click', () => {
   ++pageActiveIndex;
   displayPage(pageActiveIndex)
 })
-*/
+
 //페이지 네이션

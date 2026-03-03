@@ -1,9 +1,87 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 a{text-decoration: none; color: black;}
 .container{max-width: 1300px; height: auto; margin: 0 auto;}
-/*hover-ani*/
-/*java-ani*/
 
+html{scroll-behavior: smooth;}
+
+body{position: relative;}
+
+.quickmenu{
+  position: absolute;
+  top: 10%; right: 5%;
+  z-index: 99;
+  background-color: var(--color-text-white);
+  width: 120px; height: 480px;
+  padding: 8px 0;
+  border: 2px solid var(--color-text-gray);
+  border-radius: 60px;
+}
+.quick-select-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 8px;
+}
+.quick-select-box li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px; height: 110px;
+  border-radius: 50%;
+  position: relative;
+}
+.quick-select-box li:before{
+  position: absolute;
+  top: 0; right: 0; left: 0;
+  width: 100%; height: 100%;
+  border-radius: 50%;
+  background-color: #143b8ab7;
+  backdrop-filter: blur(1px);
+  font-family: var(--font-re);
+  font-size: 16px;
+  color: var(--color-text-white);
+  font-weight: 500;
+  text-align: center;
+  line-height: 110px;
+  opacity: 0;
+  transition: 0.3s;
+}
+.quick-select-box li:nth-child(1):before{
+  content: '기증희망등록';
+}
+.quick-select-box li:nth-child(2):before{
+  content: '기증자 추모';
+}
+.quick-select-box li:nth-child(3):before{
+  content: '희망우체통';
+}
+.quick-select-box li a img{
+  width: 72px; height: 72px;
+  object-fit: contain;
+  object-position: center;
+}
+.quick-select-box .totop{background-color: var(--color-text-lg-gray);}
+.quick-select-box .totop a{
+  font-family: var(--font-re);
+  font-size: 24px;
+  font-weight: 500;
+}
+.quick-select-box .totop a img{
+  display: block;
+  width: 36px; height: 36px;
+  transform: translateX(2px);
+}
+/*hover-ani*/
+.quick-select-box li:hover::before{
+  opacity: 1;
+}
+/*java-ani*/
+.quickmenu.scrolled{
+  position: fixed;
+  top: 50%; right: 5%; transform: translateY(-50%);
+}
+/*퀵 메뉴*/
 
 header{
   width: 100%; height: 182px;
@@ -133,6 +211,11 @@ header{
   margin-bottom: 5px;
 }
 .main-nav .sitemap-icon{
+  display: flex;
+  height: 30px;
+	flex-direction: column;
+  align-items: center;
+	gap: 6px; 
   cursor: pointer;
   text-align: center;
 }
@@ -143,16 +226,32 @@ header{
   color: var(--color-text-b-gray);
   display: none;
 }
-.main-nav .sitemap-icon img{
-  width: 24px; height: 24px;
-  margin-bottom: 5px;
+.main-nav .sitemap-icon span{
+  display: inline-block;
+	width: 24px; height: 3px;
+	background-color: gray;
+	position: relative;
+	transition: 0.2s;
 }
 /*hover-ani*/
 .main-nav ul .menu-itme:hover a{color: var(--color-red-primary);}
 .main-nav .sitemap-icon:hover img{
   filter: brightness(0) saturate(100%) invert(12%) sepia(98%) saturate(6546%) hue-rotate(353deg) brightness(92%) contrast(95%);
 }
-/*hover-ani*/
+/* java-ani */
+.main-nav .sitemap-icon.active span{background-color: red;}
+.main-nav .sitemap-icon.active span:nth-child(1){
+	top: 20%;
+	transform: rotate(45deg);
+}
+.main-nav .sitemap-icon.active span:nth-child(2){
+	opacity: 0;
+}
+.main-nav .sitemap-icon.active span:nth-child(3){
+	bottom: 40%;
+	transform: rotate(-45deg);
+}
+.main-nav ul .menu-itme.active a{color: var(--color-red-primary);}
 
 .submenu-wrapper{position: relative;}
 .submenu{
@@ -662,11 +761,16 @@ main{}
 	to{opacity: 1; transform: translatey(0)}
 }
 /* 공지 내용 */
-/* java-ani */
-.notice-info.active{display: block;}
+/* hover-ani */
 .info-text-box:hover{background-color: var(--color-text-lg-gray);}
-.info-text-box .info-content.on{display: block;}
 /* java-ani */
+.notice-tab ul .borad-tab.active:before{
+  width: 100%;
+}
+.notice-info.active{display: block;}
+.info-text-box.on{background-color: var(--color-text-lg-gray);}
+.info-text-box .info-content.on{display: block;}
+
 
 .notice-swiper{
   flex: 1; 
