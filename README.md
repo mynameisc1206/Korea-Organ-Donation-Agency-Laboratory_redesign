@@ -1,0 +1,24 @@
+# 한국장기조직기증원(KODA)
+한국장기조직기증원(KODA)은 보건복지부가 지정한 국내 유일한 장기 및 조직 구득기관으로서 뇌사추정자 또는 조직기증 희망자 발생 시 병원으로부터 통보를 받고, 기증 업무를 수행하는 기관이다.
+
+**링크**
+* 기획 : [링크](https://www.figma.com/deck/ZhN4lOQkHTRGOWBZwuLcoA/%ED%95%9C%EA%B5%AD%EC%9E%A5%EA%B8%B0%EC%A1%B0%EC%A7%81%EA%B8%B0%EC%A6%9D%EC%9B%90-%EB%A6%AC%EB%89%B4%EC%96%BC-%EA%B8%B0%ED%9A%8D%EC%84%9C?node-id=1-42&viewport=-159%2C-113%2C0.73&t=0PyXHxQlcJV4RMeJ-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
+* 디자인: [링크](https://www.figma.com/proto/jNfnenZp4KTX2RsuJjHlwC/%ED%95%9C%EA%B5%AD%EC%9E%A5%EA%B8%B0%EC%A1%B0%EC%A7%81%EA%B8%B0%EC%A6%9D%EC%9B%90-%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84-%EB%B0%8F-%EB%94%94%EC%9E%90%EC%9D%B8-%EA%B0%80%EC%9D%B4%EB%93%9C?page-id=1170%3A164&node-id=1170-165&viewport=239%2C236%2C0.09&t=iF7j1dvqqNldsgEa-1&scaling=min-zoom&content-scaling=fixed)
+* 구현 결과 : [링크]() 
+
+## 리뉴얼 프로젝트
+한국장기조직기증원(KODA) 사이트는 현재 까지도 수혜자들과 기증자들의 유가족들이 기증자를 추모하고 기억하기 위해 사이트를 이용하고 있다. 하지만 과거의 사이트는 이용자들(수혜자, 유가족)이 사용하기에 유저친화적이지 않고 현재의 디자인 트랜드에서 벗어나 있다 판단하였다. 이에 리뉴얼 프로젝트에 착수하였다. 
+
+## 프로젝트 방향성
+* 사용자의 편의를 최우선 순위에 둔 사용자 경험 설계
+* 정보들의 무게감과 위계질서를 한눈에 파악 가능한 배치와 구분
+* 요소들의 크기 조절 및 굵기 조절을 통한 반응형 설계
+* 사용 기기의 다양화
+* 라이브러리(Swiper)와 언어(JavaScript, Css)를 이용한 간단한 애니메이션들
+
+## 기술 스텍
+* HTML5
+* Css3
+* JavaScript
+
+  
