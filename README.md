@@ -22,5 +22,5 @@
 * JavaScript
 
 ## 디자인 진행
-<img width="100%" height="100%" alt="Image" src="https://github.com/mynameisc1206/Korea-Organ-Donation-Agency-Laboratory_redesign/issues/3#issue-4050273742" />
+<img width="100%" height="100%" alt="Image" src="https://github.com/user-attachments/assets/ff2ac834-25dc-426d-85a9-5bfa27697fc6" />
 
