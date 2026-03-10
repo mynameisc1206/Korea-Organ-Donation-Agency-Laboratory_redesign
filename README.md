@@ -22,5 +22,5 @@
 * JavaScript
 
 ## 디자인 진행
-<img width="533" height="1274" align="left" alt="Image" src="https://github.com/user-attachments/assets/a7976b59-0e8b-4b26-b108-e4bcc6b79b0d" />
-<img width="310" height="385" align="right" alt="Image" src="https://github.com/user-attachments/assets/de0bfcdd-b7aa-452e-be76-9ec236b55f5c" />
+<img width="453" height="1174" align="left" alt="Image" src="https://github.com/user-attachments/assets/a7976b59-0e8b-4b26-b108-e4bcc6b79b0d" />
+<img width="210" height="285" align="right" alt="Image" src="https://github.com/user-attachments/assets/de0bfcdd-b7aa-452e-be76-9ec236b55f5c" />
