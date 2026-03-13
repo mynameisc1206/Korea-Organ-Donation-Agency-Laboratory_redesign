@@ -38,7 +38,7 @@
 
 #### 메인 콘텐츠 - 기증자 추모 / 기증자 관련 정보
 
-## 디자인 진행 전/후
+## 디자인 진행 리뉴얼 후 / 리뉴얼 전
 &nbsp;
 &nbsp;
 <img width="50%" height="50%" alt="Image" align="top" src="https://github.com/user-attachments/assets/a7976b59-0e8b-4b26-b108-e4bcc6b79b0d" />
