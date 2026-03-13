@@ -22,21 +22,23 @@
 * JavaScript
 
 ## 디자인 진행
+
+
 <img width="100%" height="100%" alt="Image" src="https://github.com/user-attachments/assets/ff2ac834-25dc-426d-85a9-5bfa27697fc6" />
 
-#### 헤더 / 배너  
+__헤더 / 배너__  
 
 <img width="100%" height="100%" alt="Image" src="https://github.com/user-attachments/assets/2f87c766-e09a-4bc3-994f-d2834f9180aa" />
 
-#### 메인 콘텐츠 - 기관 소개 및 협력기관
+__메인 콘텐츠 - 기관 소개 및 협력기관__
 
 <img width="100%" height="100%" alt="Image" src="https://github.com/user-attachments/assets/b2ca2c47-ec8f-4214-9d9c-9835867ee7e3" />
 
-#### 메인 콘텐츠 - 공지사항(공지, 보도자료, 일정) / 채용 입찰
+__메인 콘텐츠 - 공지사항(공지, 보도자료, 일정) / 채용 입찰__
 
 <img width="100%" height="100%" alt="Image" src="https://github.com/user-attachments/assets/67ce0686-605b-4b29-b350-71c54d4ce1c3" />
 
-#### 메인 콘텐츠 - 기증자 추모 / 기증자 관련 정보
+__메인 콘텐츠 - 기증자 추모 / 기증자 관련 정보__
 
 ## 디자인 진행 리뉴얼 후 / 리뉴얼 전
 &nbsp;
