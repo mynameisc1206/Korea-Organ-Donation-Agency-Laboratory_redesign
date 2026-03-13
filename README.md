@@ -24,21 +24,23 @@
 ## 디자인 진행
 <img width="100%" height="100%" alt="Image" src="https://github.com/user-attachments/assets/ff2ac834-25dc-426d-85a9-5bfa27697fc6" />
 
-헤더 / 배너 -  
+#### 헤더 / 배너  
 
 <img width="100%" height="100%" alt="Image" src="https://github.com/user-attachments/assets/2f87c766-e09a-4bc3-994f-d2834f9180aa" />
 
-메인 콘텐츠 - 기관 소개 및 협력기관
+#### 메인 콘텐츠 - 기관 소개 및 협력기관
 
 <img width="100%" height="100%" alt="Image" src="https://github.com/user-attachments/assets/b2ca2c47-ec8f-4214-9d9c-9835867ee7e3" />
 
-메인 콘텐츠 - 공지사항(공지, 보도자료, 일정) / 채용 입찰
+#### 메인 콘텐츠 - 공지사항(공지, 보도자료, 일정) / 채용 입찰
 
 <img width="100%" height="100%" alt="Image" src="https://github.com/user-attachments/assets/67ce0686-605b-4b29-b350-71c54d4ce1c3" />
 
-메인 콘텐츠 - 기증자 추모 / 기증자 관련 정보
+#### 메인 콘텐츠 - 기증자 추모 / 기증자 관련 정보
 
 ## 디자인 진행 전/후
+&nbsp;
+&nbsp;
 <img width="50%" height="50%" alt="Image" align="top" src="https://github.com/user-attachments/assets/a7976b59-0e8b-4b26-b108-e4bcc6b79b0d" />
 &nbsp;
 &nbsp;
