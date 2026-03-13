@@ -46,6 +46,4 @@
 &nbsp;
 &nbsp;
 &nbsp;
-&nbsp;
-&nbsp;
 <img width="40%" height="40%" alt="Image" align="top" src="https://github.com/user-attachments/assets/de0bfcdd-b7aa-452e-be76-9ec236b55f5c" />
