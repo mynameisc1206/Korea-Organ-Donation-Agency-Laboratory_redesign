@@ -30,6 +30,10 @@
 
 ## 🏗️ 전체 구조 설명
 
+### 🤝 기여자
+- **기획 / 디자인 / 개발**: 천웅재 (Cheon Woong-jae)
+- **문서화**: 본 문서는 프로젝트에 사용된 기술과 의도를 기록하기 위해 상세히 기술되었습니다. 
+
 ### 페이지 구성도
 
 ```
@@ -56,6 +60,34 @@ subpage01.html      → 기관 소개 페이지
 └─────────────────────────────────┘
 ```
 
+### 디렉토리 구조도(File Structure)
+
+```
+root/
+├── 📂 css_file/           # 공통 스타일 시트
+│   ├── media.css          # 메인 반응형 미디어 쿼리
+│   ├── reset.css          # 브라우저 스타일 초기화
+│   ├── root.css           # 전역 변수 및 공통 레이아웃
+│   └── style.css          # 메인 페이지 전용 스타일
+├── 📂 images/             # 프로젝트 공용 이미지 리소스
+├── 📂 subpage01/          # [서브페이지 01] 게시판 페이지
+│   ├── subpage01.css
+│   ├── subpage01.html
+│   ├── subpage01.js
+│   └── subpage01media.css
+├── 📂 subpage02/          # [서브페이지 02] 기증자 추모 페이지
+│   ├── subpage02.css
+│   ├── subpage02.html
+│   ├── subpage02.js
+│   └── subpage02media.css
+├── 📂 subpage03/          # [서브페이지 03] 기관 소개 페이지
+│   ├── subpage03.css
+│   ├── subpage03.html
+│   ├── subpage03.js
+│   └── subpage03media.css
+├── index.html             # 메인 랜딩 페이지
+├── script.js              # 메인 페이지용 자바스크립트
+└── README.md              # 프로젝트 문서
 
 ## 📄 페이지별 구현 의도 및 설명
 
